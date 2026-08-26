@@ -1,7 +1,11 @@
 * {
     box-sizing: border-box;
 }
-
+footer{
+    background-color: rgba(255, 255, 255, 0.7);
+    justify-content: center;
+    text-align: center;
+}
 body {
     display: flex;
     flex-direction: column;
