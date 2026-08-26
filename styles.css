@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background: linear-gradient(135deg, rgb(235, 240, 245) 0%, rgb(209, 218, 229) 100%);
+    min-height: 100vh;
+}
+
+main {
+    margin: 2%;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0 0 20px 20px;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    padding: 10px 30px;
+}
+
+header nav ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a {
+    color: rgb(51, 65, 85);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: rgb(14, 165, 233);
+    text-decoration: underline;
+}
+
+.Iniciotitulo {
+    text-align: center;
+    color: rgb(15, 23, 42);
+}
+
+.titulo {
+    padding: 0;
+    color: rgb(15, 23, 42);
+    font-weight: bold;
+}
+
+.cuadro2 {
+    margin: 3% auto;
+    max-width: 1200px;
+}
+
+.mantenimiento, .cuadro2 {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.2));
+    border-radius: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3%;
+    display: flex;
+    filter: drop-shadow(0 15px 25px rgba(0, 0, 0, 0.08));
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    max-width: 1200px;
+    margin: 3% auto;
+}
+
+.mantenimiento p {
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    color: rgb(30, 41, 59);
+    flex: 1;
+}
+
+.mantenimiento img {
+    width: 45%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.mantenimiento .descargatool {
+    height: auto;
+    margin: 20px auto;
+    color: white;
+    display: inline-block;
+    background: linear-gradient(135deg, rgb(14, 165, 233), rgb(37, 99, 235));
+    box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);
+    text-decoration: none;
+    padding: 14px 30px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.mantenimiento .descargatool:hover {
+    background: linear-gradient(135deg, rgb(2, 132, 199), rgb(29, 78, 216));
+    box-shadow: 0 8px 25px rgba(37, 99, 235, 0.5);
+    transform: translateY(-3px);
+}
+
+main p {
+    font-size: 16.5px;
+}
+
+main .nombreherramienta {
+    color: rgb(15, 23, 42);
+    font-weight: bold;
+    font-size: 19px;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 15px;
+        border-radius: 0 0 15px 15px;
+    }
+
+    header nav ul {
+        margin-top: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .mantenimiento, .cuadro2 {
+        flex-direction: column;
+        padding: 6%;
+    }
+
+    .mantenimiento img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .mantenimiento p {
+        padding: 0;
+        margin-top: 15px;
+    }
+
+    main {
+        margin: 5%;
+    }
+}
