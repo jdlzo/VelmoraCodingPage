@@ -67,7 +67,7 @@ nav a:hover {
     max-width: 1200px;
 }
 
-.mantenimiento, .cuadro2 {
+.mantenimiento, .cuadro2, .gameone{
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.2));
     border-radius: 20px;
     justify-content: space-evenly;
@@ -115,7 +115,7 @@ nav a:hover {
 .mantenimiento .descargatool:hover {
     background: linear-gradient(135deg, rgb(2, 132, 199), rgb(29, 78, 216));
     box-shadow: 0 8px 25px rgba(37, 99, 235, 0.5);
-    transform: translateY(-3px);
+    transform: translateY(-10px);
 }
 
 main p {
@@ -160,3 +160,4 @@ main .nombreherramienta {
         margin: 5%;
     }
 }
+
