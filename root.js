@@ -1,4 +1,4 @@
-const urlPageTitle = "JS Single Page Application Router";
+const urlPageTitle = "Velmora Coding";
 
 
 document.addEventListener("click", (e) => {
