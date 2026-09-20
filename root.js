@@ -22,7 +22,7 @@ const urlRoutes = {
 		description: "This is the home page",
 	},
 	"/Donar": {
-		template: "/donar.html",
+		template: "/vis-donar.html",
 		title: "Donacion | " + urlPageTitle,
 		description: "",
 	},
