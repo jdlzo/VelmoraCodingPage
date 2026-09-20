@@ -9,7 +9,7 @@ document.addEventListener("click", (e) => {
 });
 const urlRoutes = {
 	404: {
-		template: "/vis-principal.html",
+		template: "/404.html",
 		title: "404 | " + urlPageTitle,
 		description: "Page not found",
 	},
