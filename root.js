@@ -13,12 +13,12 @@ document.addEventListener("click", (e) => {
 // create an object that maps the url to the template, title, and description
 const urlRoutes = {
 	404: {
-		template: "/principal.html",
+		template: "/vis-404.html",
 		title: "404 | " + urlPageTitle,
 		description: "Page not found",
 	},
 	"/": {
-		template: "/principal.html",
+		template: "/vis-principal.html",
 		title: "Home | " + urlPageTitle,
 		description: "This is the home page",
 	},
@@ -28,7 +28,7 @@ const urlRoutes = {
 		description: "",
 	},
 	"/Descargas": {
-		template: "/Descargas.html",
+		template: "/vis-Descargas.html",
 		title: "Contact Us | " + urlPageTitle,
 		description: "",
 	},
