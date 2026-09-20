@@ -15,7 +15,7 @@ const urlRoutes = {
 	},
 	"/": {
 		template: "/vis-principal.html",
-		title: "Home | " + urlPageTitle,
+		title: "Inicio | " + urlPageTitle,
 		description: "This is the home page",
 	},
 	"/Donar": {
