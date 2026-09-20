@@ -1,0 +1,7 @@
+{
+  "name": "velmoracodingpage",
+  "assets": {
+    "directory": "./",
+    "not_found_handling": "single-page-app"
+  }
+}
