@@ -3,7 +3,6 @@
     opacity: 0;
     animation: fadeIn 2s forwards;
 }
-
 body {
     display: flex;
     flex-direction: column;
@@ -11,7 +10,6 @@ body {
     background: linear-gradient(135deg, rgb(235, 240, 245) 0%, rgb(209, 218, 229) 100%);
     min-height: 100vh;
 }
-
 header{
     text-align: center;
     justify-content: center;

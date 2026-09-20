@@ -3,13 +3,11 @@
     opacity: 0.2;
     animation: fadeIn 2s forwards;
 }
-
 footer {
     background-color: rgba(255, 255, 255, 0.7);
     justify-content: center;
     text-align: center;
 }
-
 body {
     display: flex;
     flex-direction: column;
@@ -17,11 +15,9 @@ body {
     background: linear-gradient(135deg, rgb(235, 240, 245) 0%, rgb(209, 218, 229) 100%);
     min-height: 100vh;
 }
-
 main {
     margin: 2%;
 }
-
 header {
     background-color: rgba(255, 255, 255, 0.7);
     width: 100%;
@@ -34,7 +30,6 @@ header {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
     padding: 10px 30px;
 }
-
 header nav ul {
     padding: 0;
     margin: 0;
@@ -42,35 +37,29 @@ header nav ul {
     list-style: none;
     gap: 20px;
 }
-
 nav a {
     color: rgb(51, 65, 85);
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s;
 }
-
 nav a:hover {
     color: rgb(14, 165, 233);
     text-decoration: underline;
 }
-
 .Iniciotitulo {
     text-align: center;
     color: rgb(15, 23, 42);
 }
-
 .titulo {
     padding: 0;
     color: rgb(15, 23, 42);
     font-weight: bold;
 }
-
 .cuadro2 {
     margin: 3% auto;
     max-width: 1200px;
 }
-
 .mantenimiento, .cuadro2, .gameone {
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.2));
     border-radius: 20px;
@@ -85,16 +74,13 @@ nav a:hover {
     max-width: 1200px;
     margin: 3% auto;
     opacity: 0;
-    animation: fadeIn 7s forwards;
+    animation: fadeIn 2s forwards;
 }
-
-
 .gameone {
     flex-direction: column;
     text-align: center;
     gap: 15px;
 }
-
 .mantenimiento p {
     text-align: center;
     margin: 0;
@@ -102,18 +88,15 @@ nav a:hover {
     color: rgb(30, 41, 59);
     flex: 1;
 }
-
 .mantenimiento img {
     width: 45%;
     height: auto;
     border-radius: 12px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
-
 @keyframes fadeIn {
-    to { opacity: 1; }
+    to { opacity: 2; }
 }
-
 .mantenimiento .descargatool {
     height: auto;
     margin: 20px auto;
@@ -128,51 +111,42 @@ nav a:hover {
     font-weight: bold;
     letter-spacing: 0.5px;
 }
-
 .mantenimiento .descargatool:hover {
     background: linear-gradient(135deg, rgb(2, 132, 199), rgb(29, 78, 216));
     box-shadow: 0 8px 25px rgba(37, 99, 235, 0.5);
     transform: translateY(-10px);
 }
-
 main p {
     font-size: 16.5px;
 }
-
 main .nombreherramienta {
     color: rgb(15, 23, 42);
     font-weight: bold;
     font-size: 19px;
 }
-
 @media (max-width: 768px) {
     header {
         flex-direction: column;
         padding: 15px;
         border-radius: 0 0 15px 15px;
     }
-
     header nav ul {
         margin-top: 15px;
         flex-wrap: wrap;
         justify-content: center;
     }
-
     .mantenimiento, .cuadro2, .gameone {
         flex-direction: column;
         padding: 6%;
     }
-
     .mantenimiento img {
         width: 100%;
         margin-bottom: 20px;
     }
-
     .mantenimiento p {
         padding: 0;
         margin-top: 15px;
     }
-
     main {
         margin: 5%;
     }
