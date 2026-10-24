@@ -1,4 +1,4 @@
-<H2 class="Iniciotitulo">Herramientas</H2>
+<h2 class="Iniciotitulo">Herramientas</h2>
         <div class="Herramientas">
             <div class="mantenimiento">
                 <p class="nombreherramienta">Toolkit para windows</p>
