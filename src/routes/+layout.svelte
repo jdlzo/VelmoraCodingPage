@@ -27,6 +27,7 @@
                     <li><a href="/" class:active={page.url.pathname==='/'}>Inicio</a></li>
                     <li><a href="/Descargas" class:active={page.url.pathname==='/Descargas'}>Descargas</a></li>
                     <li><a href="/Donar" class:active={page.url.pathname==='/Donar'}>Donar</a></li>
+                    <li><a href="/Chat" class:active={page.url.pathname==='/Chat'}>Chatbot</a></li>
                 </ul>
             </nav>
         </div>
