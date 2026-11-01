@@ -33,7 +33,9 @@
         </div>
     </header>
     <main id="content">
+    
 		{@render children()}
+    
 	</main>
 <footer><div class="footer-copy">
     <p>&copy; 2026 Velmora Coding. Desarrollado por <strong>jdlzo</strong>.</p>
